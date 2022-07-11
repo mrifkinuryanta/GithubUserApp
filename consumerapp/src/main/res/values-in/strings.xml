@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Consumer App</string>
+    <string name="todo">TODO</string>
+    <string name="title_activity_settings">Pengaturan</string>
+
+    <string name="tv_followers">Pengikut</string>
+    <string name="tv_repository">Repositori</string>
+    <string name="tv_following">Mengikuti</string>
+    <string name="tv_company">Perusahaan</string>
+
+    <string name="favorite_user">Daftar Favorit</string>
+    <string name="remove_favorite">Telah dihapus dari daftar favorit</string>
+    <string name="added_favorite">Ditambahkan ke daftar favorit</string>
+    <string name="empty_list">Anda belum memiliki daftar favorit.</string>
+</resources>

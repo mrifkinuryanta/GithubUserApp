@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Github User</string>
+    <string name="todo">TODO</string>
+    <string name="title_activity_settings">Pengaturan</string>
+
+    <string name="tv_followers">Pengikut</string>
+    <string name="tv_repository">Repositori</string>
+    <string name="tv_following">Mengikuti</string>
+    <string name="tv_company">Perusahaan</string>
+
+    <string name="search">cari</string>
+    <string name="favorite">favorit</string>
+    <string name="setting">pengaturan</string>
+
+    <string name="user_unavailable">Pengguna tidak tersedia</string>
+    <string name="search_hint">Masukkan nama</string>
+
+    <string name="favorite_user">Daftar Favorit</string>
+    <string name="remove_favorite">Telah dihapus dari daftar favorit</string>
+    <string name="added_favorite">Ditambahkan ke daftar favorit</string>
+    <string name="empty_list">Anda belum memiliki daftar favorit.</string>
+
+    <string name="key_daily_reminder"><xliff:g>daily_reminder</xliff:g></string>
+    <string name="daily_reminder_active">Pengingat harian aktif</string>
+    <string name="daily_reminder_cancelled">Pengingat harian dibatalkan</string>
+    <string name="daily_reminder_title">Pengingat harian</string>
+    <string name="daily_reminder_summary">Pengingat ini akan didapatkan pada pukul 09:00 AM</string>
+
+    <string name="notification_content">Ayo temukan pengguna lain di Aplikasi Github ..</string>
+    <string name="notification_big_content">Ayo temukan pengguna lain di Aplikasi Github, anda juga dapat menambahkan mereka ke daftar favorit</string>
+</resources>

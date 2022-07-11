@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Github User</string>
+    <string name="todo">TODO</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <string name="tv_followers">Followers</string>
+    <string name="tv_repository">Repository</string>
+    <string name="tv_following">Following</string>
+    <string name="tv_company">Company</string>
+
+    <string name="search">search</string>
+    <string name="setting">setting</string>
+    <string name="favorite">favorite</string>
+
+    <string name="user_unavailable">User Unavailable</string>
+    <string name="search_hint">Enter a name</string>
+
+    <string name="favorite_user">Favorite User</string>
+    <string name="remove_favorite">Has been removed from the favorites list</string>
+    <string name="added_favorite">Added to favorite list</string>
+    <string name="empty_list">You don\'t have a favorite list yet</string>
+
+    <string name="key_daily_reminder">daily_reminder</string>
+    <string name="daily_reminder_active">Daily reminder active</string>
+    <string name="daily_reminder_cancelled">Daily reminder cancelled</string>
+    <string name="daily_reminder_title">Daily reminder</string>
+    <string name="daily_reminder_summary">This reminder will be available at 09:00 AM</string>
+
+    <string name="notification_content">Let\'s find other users on the Github App ..</string>
+    <string name="notification_big_content">let\'s find other users on the Github App, you can also add them to the favorites list</string>
+</resources>

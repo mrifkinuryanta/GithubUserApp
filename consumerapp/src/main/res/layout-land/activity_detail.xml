@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey_100"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/grey_100"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/corners_buttom"
+            android:backgroundTint="@color/colorWhite">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/img_detailUser"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:layout_alignTop="@+id/tv_detailName"
+                android:layout_alignBottom="@+id/tv_detailLocation"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="-15dp"
+                android:layout_marginBottom="-14dp"
+                android:elevation="0dp"
+                app:civ_border_color="@color/colorAccent"
+                app:civ_border_width="3dp"
+                tools:src="@drawable/user4" />
+
+            <TextView
+                android:id="@+id/tv_detailName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="125dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="45dp"
+                android:ellipsize="end"
+                android:fontFamily="@font/arial_bd"
+                android:maxLines="2"
+                android:textColor="@color/colorBlack"
+                android:textSize="20sp"
+                tools:ignore="RelativeOverlap"
+                tools:text="Chris Banes" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_detailName"
+                android:layout_marginStart="120dp"
+                android:contentDescription="@string/todo"
+                android:paddingTop="2dp"
+                android:src="@drawable/ic_location" />
+
+            <TextView
+                android:id="@+id/tv_detailLocation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_detailName"
+                android:layout_marginStart="140dp"
+                android:layout_marginEnd="45dp"
+                android:ellipsize="end"
+                android:fontFamily="@font/arial"
+                android:maxLines="2"
+                android:textColor="@color/colorAccent"
+                android:textSize="16sp"
+                tools:text="Sydney, Australia" />
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/btn_fav"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/tv_detailName"
+                android:layout_alignBottom="@+id/tv_detailLocation"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="12dp"
+                android:background="@color/colorWhite"
+                android:src="@drawable/ic_favorite_outlined_24dp" />
+
+            <View
+                android:id="@+id/view1"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/tv_detailLocation"
+                android:layout_marginTop="25dp"
+                android:background="@color/grey_100" />
+
+            <TextView
+                android:id="@+id/title_repository"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/view1"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="sans-serif"
+                android:text="@string/tv_repository"
+                android:textColor="@color/colorAccent"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tv_detailRepository"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/title_repository"
+                android:layout_alignStart="@+id/title_repository"
+                android:layout_alignEnd="@+id/title_repository"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/arial_bd"
+                android:gravity="center"
+                android:maxLines="1"
+                android:textColor="@color/colorBlack"
+                android:textSize="18sp"
+                tools:text="30" />
+
+            <TextView
+                android:id="@+id/title_followers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/title_repository"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="sans-serif"
+                android:text="@string/tv_followers"
+                android:textColor="@color/colorAccent"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tv_detailFollowers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/title_followers"
+                android:layout_alignStart="@+id/title_followers"
+                android:layout_alignEnd="@+id/title_followers"
+                android:fontFamily="@font/arial_bd"
+                android:gravity="center"
+                android:maxLines="1"
+                android:textColor="@color/colorBlack"
+                android:textSize="18sp"
+                tools:text="14725" />
+
+            <TextView
+                android:id="@+id/title_following"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/title_followers"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="25dp"
+                android:fontFamily="sans-serif"
+                android:text="@string/tv_following"
+                android:textColor="@color/colorAccent"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tv_detailFollowing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/title_following"
+                android:layout_alignStart="@+id/title_following"
+                android:layout_alignEnd="@+id/title_following"
+                android:fontFamily="@font/arial_bd"
+                android:gravity="center"
+                android:maxLines="1"
+                android:textColor="@color/colorBlack"
+                android:textSize="18sp"
+                tools:text="1" />
+
+            <View
+                android:id="@+id/view2"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/tv_detailRepository"
+                android:background="@color/grey_100" />
+
+            <TextView
+                android:id="@+id/title_company"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/view2"
+                android:layout_gravity="bottom"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="sans-serif"
+                android:text="@string/tv_company"
+                android:textColor="@color/colorAccent"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tv_detailCompany"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/title_company"
+                android:layout_gravity="bottom"
+                android:layout_marginStart="25dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginBottom="10dp"
+                android:ellipsize="end"
+                android:fontFamily="@font/arial"
+                android:maxLines="2"
+                android:textColor="@color/colorBlack"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                tools:text="Google working on @android" />
+
+        </RelativeLayout>
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/corners_top"
+            android:backgroundTint="@color/colorWhite"
+            app:tabSelectedTextColor="@color/colorPrimary"
+            app:tabTextColor="@color/colorBlack" />
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/view_pager"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:background="@color/colorWhite" />
+
+    </LinearLayout>
+
+</ScrollView>
